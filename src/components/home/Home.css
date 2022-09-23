@@ -1,0 +1,10 @@
+.home{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0 40px;
+}
+.home_feed{
+    display: flex;
+}

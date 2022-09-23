@@ -1,11 +1,11 @@
 import './App.css';
+import Home from './components/home/Home';
 
-function App() {
+function App(){
   return (
     <div className="app">
-      <h1>This is Social Hut!!!</h1>
+      <Home />
     </div>
   );
 }
-
 export default App;
