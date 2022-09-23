@@ -1,0 +1,19 @@
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.icons:hover{
+    background-color: white;
+    color: blue;
+}
+.icons:hover p{
+    color: black;
+}
+.icons > p{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 500;
+}

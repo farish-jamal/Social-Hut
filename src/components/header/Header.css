@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+}
+.header_left > img {
+    width: 70px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_left >input {
+    margin-left: 15px;
+    padding: 7px 10px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: 0.1px solid transparent;
+    background-color: rgba(124, 124, 124, 0.438);
+    color: rgb(230, 230, 230);
+}
+.header_left >input::placeholder{
+    color: rgb(230, 230, 230);
+}
+.header_right, .header_profile{
+    display: flex;
+    align-items: center;
+}
+.hedader_rightIcons{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.header_profile{
+    background-color: rgba(124, 124, 124, 0.438);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.header_profile > p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.header_rightProfile{
+    display: flex;
+    align-items: center;
+}
