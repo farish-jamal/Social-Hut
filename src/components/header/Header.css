@@ -1,13 +1,15 @@
 .header{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 0px;
-    position: sticky;
+    padding: 10px 15px;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 999;
-    background-color: black;
+    background-color: #28343e;
+    box-shadow: 0 9px 2px -6px rgb(126, 126, 126, 0.2);
 }
 .header_left > img {
     width: 50px;
