@@ -1,0 +1,18 @@
+.modal{
+    position: fixed;
+    top: 70px;
+    right: 40px;
+    height: 70px;
+    width: 150px;
+    background-color: #28343e;
+    border-radius: 10px 0px 10px 10px;
+    z-index: 999;
+    display: none;
+}
+.button_modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

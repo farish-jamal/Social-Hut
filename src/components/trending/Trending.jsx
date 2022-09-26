@@ -2,10 +2,12 @@ import React from 'react'
 import "./Trending.css"
 import SettingsIcon from '@mui/icons-material/Settings';
 import TrendingChild from './TrendingChild/TrendingChild';
+import Modal from '../modal/Modal'
 
 function Trending() {
   return (
     <div className='trending'>
+        <Modal />
         <div className="trending_top">
           <p>Trend for you</p>
           <SettingsIcon />
