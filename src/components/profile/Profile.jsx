@@ -21,7 +21,7 @@ function Profile() {
               <p className="text">Followings</p>
             </div>
           </div>
-            <div className="button">My Profile</div>
+            <button className="button">Go To Profile</button>
         </div>
         <div className="profile_bottom">
           <p className="top">Who is to follow you</p>

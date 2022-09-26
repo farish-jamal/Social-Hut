@@ -37,7 +37,7 @@ form > input {
     color: white;
 }
 form > input::placeholder{
-    color: white;
+    color: rgb(175, 175, 175);
 }
 form > button{
     display: none;

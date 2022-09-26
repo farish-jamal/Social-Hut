@@ -45,10 +45,10 @@ function Posts() {
             </div>
         </div>
         <div className="bottom_actionButton">
-            <ActionIcons Icon={FavoriteIcon} title="Like"/>
-            <ActionIcons Icon={LoopIcon} title="Reshare Post"/>
-            <ActionIcons Icon={InsertCommentIcon} title="Comment"/>
-            <ActionIcons Icon={IosShareIcon} title="Share"/>
+            <ActionIcons Icon={FavoriteIcon} title="Like" color="red"/>
+            <ActionIcons Icon={LoopIcon} title="Reshare Post" color="green"/>
+            <ActionIcons Icon={InsertCommentIcon} title="Comment" color="#1DA1F2"/>
+            <ActionIcons Icon={IosShareIcon} title="Share" color="#1DA1F2"/>
         </div>
     </div>
     </>

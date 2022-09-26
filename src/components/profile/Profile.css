@@ -30,6 +30,7 @@
     margin-top: 2px;
     font-size: 14px;
     font-weight: 300;
+    color: rgb(175, 175, 175);
 }
 .profile_follower{
     display: flex;
@@ -50,8 +51,13 @@
 }
 .button{
     margin-top: 10px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1DA1F2;
     cursor: pointer;
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.number{
+    color: rgb(175, 175, 175);
 }
